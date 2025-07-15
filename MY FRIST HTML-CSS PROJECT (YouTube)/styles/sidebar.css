@@ -1,0 +1,50 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 55px;
+  bottom: 0;
+  background-color: white;
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.sidebar-link {
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.sidebar-link:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.home-icon {
+  width: 24px;
+}
+
+.explore-icon {
+  width: 24px;
+}
+
+.subscriptions-icon {
+  width: 24px;
+}
+
+.originals {
+  width: 24px;
+}
+
+.music-icon {
+  width: 24px;
+}
+
+.library-icon {
+  width: 24px;
+}
+.sidebar-link div {
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
